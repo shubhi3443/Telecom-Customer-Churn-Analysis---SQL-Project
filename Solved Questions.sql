@@ -1,10 +1,10 @@
-#select * from telecom_customer_churn
+select * from telecom_customer_churn
 
 #1. How many unique customers are there in the dataset?
-#select Count( Distinct Customer_ID) from telecom_customer_churn;
+select Count( Distinct Customer_ID) from telecom_customer_churn;
 
 #2. What is the average age of the customers?
-#select avg(Age) as avg_age from telecom_customer_churn;
+select avg(Age) as avg_age from telecom_customer_churn;
 
 #3. How many customers are married and how many are not?
 -- select Married,
